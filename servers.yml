@@ -1,0 +1,21 @@
+---
+- name: "node01"
+  box: "centos/8"
+  ssh_port: 2200
+  ip: "192.168.122.10"
+  ram: 2048
+  vcpu: 2
+
+- name: "node02"
+  box: "centos/8"
+  ssh_port: 2201
+  ip: "192.168.122.11"
+  ram: 2048
+  vcpu: 2
+
+- name: "node03"
+  box: "centos/8"
+  ssh_port: 2202
+  ip: "192.168.122.12"
+  ram: 2048
+  vcpu: 2 
